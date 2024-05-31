@@ -1,0 +1,203 @@
+*{
+    margin: 0px;
+}
+.StartPageh1{
+    background-color: transparent;
+    text-align: center;
+    height: 50px;
+    color: rgb(29, 84, 205);
+}
+h2{
+    text-align: center;
+    color: white;
+}
+.d1{
+    background-color: orange;
+    height: 40px;
+}
+.startbar{
+    color: yellow;
+    height: 50px;
+    width: 180px;
+    border: 3px solid rgb(29, 84, 205);
+    border-radius: 30px;
+    background-color: transparent;
+    margin-top: 300px;
+    font-size: x-large;
+    box-shadow: 0px 0px 3px rgb(10, 192, 242);
+}
+.StartPage{
+    background-image: url(SPS\ gif.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 3px solid gold;
+}
+.gamePageH{
+    background-color: transparent;
+    text-align: center;
+    color: rgb(29, 84, 205);
+    margin-top: 20px;
+}
+.gamePageS{
+    font-size: xx-large;
+}
+.Stone1{
+    font-size: 100px;
+    background-color: transparent;
+    border-color: rgb(29, 84, 205);
+    box-shadow: 0 0 10px rgb(10, 192, 242);
+    height: 150px;
+    width: 200px;
+    margin-top: 30px;
+}
+.Paper1{
+    font-size: 100px;
+    background-color: transparent;
+    border-color: rgb(29, 84, 205);
+    box-shadow: 0 0 10px rgb(10, 192, 242);
+    height: 150px;
+    width: 200px;
+    margin-top: 30px;
+}
+.Scissor1{
+    font-size: 100px;
+    background-color: transparent;
+    border-color: rgb(29, 84, 205);
+    box-shadow: 0 0 10px rgb(10, 192, 242);
+    height: 150px;
+    width: 200px;
+    margin-top: 30px;
+}
+.Stonebutton{
+    margin-left: 100px;
+    background-color: transparent;
+    color: yellow;
+    height: 40px;
+    width: 200px;
+    border-color: transparent;
+    font-size: 30px;
+    margin-top: 3px;
+}
+.PaperButton{
+    background-color: transparent;
+    color: yellow;
+    height: 40px;
+    width: 200px;
+    border-color: transparent;
+    font-size: 30px;
+    margin-top: 3px;
+}
+.Scissorbutton{
+    background-color: transparent;
+    color: yellow;
+    height: 40px;
+    width: 200px;
+    border-color: transparent;
+    font-size: 30px;
+    margin-top: 3px;
+}
+.EYNfont{
+    margin-top: 250px;
+    font-size: 50px;
+    color: yellow;
+}
+.NameButton{
+    margin-top: 10px;
+    font-size: 20px;
+    border: 3px solid rgb(29, 84, 205);
+    background-color: transparent;
+    color: yellow;
+    box-shadow: 0 0 10px rgb(10, 192, 242);
+}
+.score-board{
+    color: yellow;
+    text-align: center;
+    border: 3px solid rgb(29, 84, 205);
+    margin: 70px;
+    padding: 10px 10px;
+    width: 150px;
+    margin: auto;
+    box-shadow: 0 0 10px rgb(10, 192, 242);
+    border-radius: 30px;
+    font-size: 30px;
+    margin-top: 10px;
+    position: relative;
+}
+.badge{
+    background-color: black;
+    font-size: 15px;
+    border: 2px solid rgb(29, 84, 205);
+    padding: 5px 10px;
+    border-radius: 10px;
+    width: 80px;
+    color: yellow;
+}
+#user-badge{
+    position: absolute;
+    left: -30px;
+    top: 13px;
+    width: 25px;
+}
+#oppo-badge{
+    position: absolute;
+    right: -55px;
+    width: 54px;
+    top: 13px;
+}
+.result{
+    text-align: center;
+    font-weight: 40px;
+    color: gold;
+    margin-top: 20px;
+}
+#empty{
+    color: rgb(250, 143, 43);
+}
+.returnBar{
+    color: yellow;
+    height: 50px;
+    width: 180px;
+    border: 3px solid rgb(29, 84, 205);
+    border-radius: 30px;
+    background-color: transparent;
+    font-size: x-large;
+    box-shadow: 0px 0px 3px rgb(10, 192, 242);
+    position: absolute;
+}
+.ChoiceUO{
+    margin-top: -100px;
+    text-align: center;
+}
+.Choice{
+    font-size: 150px;
+    border: 3px solid rgb(29, 84, 205);
+    box-shadow: 0 0 10px rgb(10, 192, 242);
+    padding-bottom: 13px;
+}
+.badge1{
+    background-color: black;
+    font-size: 15px;
+    border: 2px solid rgb(29, 84, 205);
+    padding: 5px 10px;
+    border-radius: 10px;
+    width: 80px;
+    color: yellow;
+    text-align: center;
+}
+#fontuser{
+    margin-left: 38%;
+    position: absolute;
+    bottom: 3px;
+}
+#fontoppo{
+    margin-left: 55%;
+    position: absolute;
+    bottom: 3px;
+}
+.deco{
+    font-size: 50px;
+    right: 50%;
+    bottom: 10%;
+    color: rgb(29, 84, 205);
+    position: absolute;
+}

@@ -1,0 +1,58 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StonePaperScissorGame🎮</title>
+    <link rel="icon" href="images.png">
+  
+    <link rel="stylesheet" href="StonePaperScissor.css">
+</head>
+<body class="StartPage">
+    <div>
+        <h1 class="StartPageh1">
+            <strong>Stone✊</strong>
+            <strong>Paper🖐️</strong>
+            <strong>Scissor✌️</strong>
+        </h1>
+    </div>
+
+    <div class="score-board">
+        <div class="badge" id="user-badge">you</div>
+        <div class="badge" id="oppo-badge">opponent</div>
+        <span id="user-score">0</span> : <span id="oppo-score">0</span>
+    </div>
+
+    <div class="result">
+        <h1 id="result-message">Let's have fun!</h1>
+    </div>
+    <div>
+        <h1 class="gamePageH">👇Make Your Move!👇</h1>
+    </div>
+    <center>
+    <div>
+        <button id="r" class="Stone1">✊</button>
+        <button id="p" class="Paper1">🖐️</button>
+        <button id="s" class="Scissor1">✌️</button>
+    </div>
+    </center>
+    <center style="margin-right:100px ;">
+    <div>
+        <button class="Stonebutton">STONE</button>
+        <button class="Paperbutton">PAPER</button>
+        <button class="Scissorbutton">SCISSOR</button>
+    </div>
+    </center>
+    <div style="margin-left: 1300px; margin-top: 100px;">
+        <button id="reset" class="returnBar">🔃Reset</button><br>
+        <button onclick="backtoStart()" class="returnBar" style="margin-top: 50px;">🔙Return</button>
+    </div>
+
+    <div class="ChoiceUO">
+        <div class="badge1" id="fontuser">You</div>
+        <span class="Choice" id="userFont">🤜</span><span class="deco">:</span><span class="Choice" id="oppoFont" style="margin-left: 50px;">🤛</span>
+        <div class="badge1" id="fontoppo">opponent</div>
+    </div>
+</body>
+<script src="StonePaperScissor.js"></script>
+</html>
